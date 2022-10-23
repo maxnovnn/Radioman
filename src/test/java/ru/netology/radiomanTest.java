@@ -10,7 +10,6 @@ public class radiomanTest {
 
     @Test
     void shouldChangeStation() {
-        assertEquals(0, radio.getCurrentStation());
         radio.setCurrentStation(5);
         assertEquals(5, radio.getCurrentStation());
     }
